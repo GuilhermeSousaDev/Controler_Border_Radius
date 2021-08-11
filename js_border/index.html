@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Border Radius</title>
+</head>
+<body>
+    <div class="div1"></div>  
+    <div class="container">
+        <label>Borda Topo Esquerdo</label>
+        <input onmousemove="borderChangeTopLeft()" type="range" value="0" max="100" id="radiusTopLeft">
+        <label>Borda Topo Direito</label>
+        <input onmousemove="borderChangeTopRight()" type="range" value="0" max="100" id="radiusTopRight">
+        <label>Borda Fundo Esquerdo</label>
+        <input onmousemove="borderChangeBottomLeft()" type="range" value="0" max="100" id="radiusBottomLeft">
+        <label>Borda Fundo Direito</label>
+        <input onmousemove="borderChangeBottomRight()" type="range" value="0" max="100" id="radiusBottomRight">
+    </div>
+    <div class="container2">
+        <label>Largura do Container</label>
+        <input onmousemove="changeWidthObj()" type="range" value="200" min="30" max="500" id="widthObj">
+        <label>Altura do Container</label>
+        <input onmousemove="changeHeightObj()" type="range" value="200" min="30" max="350" id="heightObj">
+    </div>
+</body>
+</html>
